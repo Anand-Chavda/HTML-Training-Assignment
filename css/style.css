@@ -1,0 +1,95 @@
+.body {
+  background-color: #fafafa;
+}
+
+#hero-image {
+  width: 576px;
+  height: 576px;
+  /* UI Properties */
+  background: transparent url("img/Ellipse 2.png") 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 31px #0000000a;
+  border: 20px solid #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  margin-top: 72px;
+  margin-left: 166px;
+  box-shadow: 0px 4px 31px #0000000A; 
+}
+  
+
+#logo {
+  margin-top: 72px;
+}
+
+#right {
+  padding-left: 163px;
+}
+
+#text {
+  padding-top: 19px;
+  width: 500px;
+  height: 100px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 300 40px/47px Roboto;
+  color: #3e3e3e;
+}
+
+.input {
+  margin: 5px;
+  border-radius: 5px;
+  width: 63%;
+  border: 1px solid #ADADAD;
+  padding: 7px;
+}
+.button {
+  width: 138px;
+  height: 45px;
+  background: #c8242f 0% 0% no-repeat padding-box;
+  border-radius: 23px;
+  opacity: 1;
+  color: #ffffff;
+  border-color: #c8242f;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#forget {
+  width: 121px;
+  height: 20px;
+  text-align-last:auto;
+  margin-top: 12px;
+  font: normal normal normal 15px/20px Roboto;
+  color: #adadad;
+}
+
+.loginForget{
+    margin: 5px;
+}
+
+.rightSubBody{
+    margin-top: 75px;
+}
+
+#stext{
+    width: 260px;
+height: 33px;
+text-align: left;
+font: normal normal normal 25px/33px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+}
+
+#ltext{
+    
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 15px/20px Roboto;
+letter-spacing: 0px;
+color: #ADADAD;
+opacity: 1;
+}
