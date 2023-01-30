@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/innerpage.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Innerpage</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="upper">
+                <nav class="navbar fixed-top navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                            aria-controls="offcanvasTop"><img src="images/menu-bar.svg" alt=""></button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasTop"
+                            aria-labelledby="offcanvasTopLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <a href="dashboard.html" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;background-color: #FFF3F4; color: #C8242F;" role="button">
+                                    <img class="dashImages" src="images/dashboard-active.svg" alt="Dashboard"> 
+                                    <p>&nbsp;&nbsp;Dashboard</p></a>
+                                <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/graph-default.svg" alt="Analysis"> &nbsp;&nbsp;  Analysis</a>
+                                <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/inbox-default.svg" alt="Inbox">  &nbsp;&nbsp; Inbox</a>
+                                <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/clock-default.svg" alt="History">  &nbsp;&nbsp; History</a>
+                                <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/user-default.svg" alt="Users">  &nbsp;&nbsp; Users</a>
+                                <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/maintenance-default.svg" alt="Maintenance">  &nbsp;&nbsp; Maintenance</a>
+                                <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/setting-default.svg" alt="Setting">&nbsp;&nbsp; Setting</a>
+                            </div>
+                        </div>
+
+                        <a class="navbar-brand" href="#"><img src="images/header-logo.svg" alt="Company" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <a href=""><img height="16px" width="16px" src="images/search-icon.svg" alt=""
+                                    class="src alt"></a>
+                            &nbsp;&nbsp;
+                            <form>
+                                <input style="border: none; border-radius: 5px;" type="search" placeholder="Search"
+                                    aria-label="Search" />
+                            </form>
+
+                            
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02"></div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#"><img class="mt-2" src="images/notification-icon.svg"
+                                            alt="Notifications"></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="images/profile.png" style="text-decoration: none;" alt="Profile">
+                                        John Deo
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                                        <li><a class="dropdown-item" href="#">Setting</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+<!---------------------------Slidbar-------------------------->
+
+
+        <div>
+
+
+            <div class="sidebar">
+                <div class="container">
+                    <a href="dashboard.html" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button">
+                        <img class="dashImages" src="images/dashboard-default.svg" alt="Dashboard"> &nbsp;&nbsp;Dashboard</a>
+                    <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;background-color: #FFF3F4; color: #C8242F;" role="button"><img class="dashImages" src="images/graph-active.svg" alt="Analysis"> &nbsp;&nbsp;  Analysis</a>
+                    <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/inbox-default.svg" alt="Inbox">  &nbsp;&nbsp; Inbox</a>
+                    <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/clock-default.svg" alt="History">  &nbsp;&nbsp; History</a>
+                    <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/user-default.svg" alt="Users">  &nbsp;&nbsp; Users</a>
+                    <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/maintenance-default.svg" alt="Maintenance">  &nbsp;&nbsp; Maintenance</a>
+                    <a href="#" class="btn d-flex justify-content-start" style="width: 183px;height: 43px;" role="button"><img class="dashImages" src="images/setting-default.svg" alt="Setting">&nbsp;&nbsp; Setting</a>
+                </div>
+            </div>
+
+
+<!----------------Content----------------------->
+
+            <div class="content">
+                <div id="dashboardContent" style="margin: 40px;">
+                    <h2 style="font-weight: bold;">Analysis</h2>
+                    <div class="container formDiv">
+
+        <!----------------One Column---------------->
+
+                        <form>
+                            <h4 style="color: #3E3E3E;"><b>One Column</b></h4>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Name">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                              <select class="form-control" id="" title="">
+                                <option value="" disabled selected hidden>Dropdown</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                              </select>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                              <textarea class="form-control" id="" rows="4" placeholder="Multiple lines"></textarea>
+                            </div>
+                        <br>
+
+        <!----------------Two Column---------------->
+
+                        <h4 style="color: #3E3E3E;"><b>Two Column</b></h4>
+                            <div class="row">
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="Name">
+                              </div>
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                              </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="password" class="form-control" id="" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <select class="form-control" id="" title="">
+                                        <option value="" disabled selected hidden>Dropdown</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </div>
+
+        <!----------------Three Column---------------->
+
+                        <br>
+                        <h4 style="color: #3E3E3E;"><b>Three Column</b></h4>
+                            <div class="row">
+                                <div class="col-4">
+                                    <input type="text" class="form-control border border-danger" id="" placeholder="City" required>
+                                  </div>
+                              <div class="col-4">
+                                <input type="password" class="form-control" id="" placeholder="Password">
+                              </div>
+                              <div class="col-4" readonly>
+                                <input type="text" class="form-control" placeholder="Johndeo" disabled style="border-style:dashed;">
+                              </div>
+                            </div>
+
+
+        <!----------------Four Column---------------->
+
+                        <br>
+                        <h4 style="color: #3E3E3E;"><b>Four Column</b></h4>
+                            <div class="row">
+                                <div class="col-3">
+                                    <input type="text" class="form-control is-invalid" id="" placeholder="City" required>
+                                    <div class="invalid-feedback">
+                                    Enter Valid Data
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <input type="text" class="form-control " placeholder="Name" disabled>
+                                    <div class="invalid-feedback">
+                                        Enter your full Name as per ID
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <input type="text" class="form-control" placeholder="Zip" value="John Deo">
+                                </div>
+                                <div class="col-3">
+                                    <select class="form-control" id="" title="">
+                                        <option value="" disabled selected hidden>Select</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+        <!---------------Other Design Elements--------------->
+
+                        <br>
+                        <h4 style="color: #3E3E3E;"><b>Other Design Elements</b></h4>
+                        <h5 style="color: #3E3E3E;"><b>File Upload</b></h5>
+
+                            <div class="form-group">
+
+                                <input type="file" id="actual-btn" hidden="hidden" />
+                                <button type="button" class="btn btn-outline-danger" style="border-radius: 18px;">
+                                    <label for="actual-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-arrow-up" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M7.646 5.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2z"></path>
+                                        <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"></path>
+                                        </svg>&nbsp;&nbsp;Upload
+                                    </label>
+                                </button>
+                                
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <span id="file-chosen" style="color: #ADADAD;">No item Selected</span>
+                            </div>
+                            <br>
+
+
+
+                            <h5 style="color: #3E3E3E;"><b>Radio Button</b></h5>
+                            <div class="form-group">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Option 1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Option 2</label>
+                                </div>
+                            </div>
+
+                            <br>                            
+                            <h5 style="color: #3E3E3E;"><b>Checkbox</b></h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Option 1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Option 2</label>
+                            </div>
+
+                            <br><br>
+                            <h5 style="color: #3E3E3E;"><b>Snackbar</b></h5>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6" ><img class="snackbarImage" src="images/error-icon.svg" alt="">This is an error Message!</div>
+                                    <div class="col-6" style="border-color: #00B9E1"><img class="snackbarImage" src="images/info-icon.svg" alt="">This is an information Message!</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6" style="border-color: #FFA800"><img class="snackbarImage" src="images/warning-icon.svg" alt="">This is a warning Message!</div>
+                                    <div class="col-6" style="border-color: #00AF27"><img class="snackbarImage" src="images/success-icon.svg" alt="">This is a success Message!</div>
+                                </div>
+                            </div>
+
+
+
+                        </form>
+
+                    </div>
+
+
+
+
+                    
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        const actualBtn = document.getElementById('actual-btn');
+
+        const fileChosen = document.getElementById('file-chosen');
+
+        actualBtn.addEventListener('change', function(){
+        fileChosen.textContent = this.files[0].name})
+    </script>
+</body>
+
+</html>

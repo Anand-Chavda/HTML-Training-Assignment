@@ -34,8 +34,7 @@ nav{
 
 @media screen and (max-width: 700px) {
     .sidebar {
-        display: none;
-
+       display: none;
     }
 
     .sidebar a {
@@ -55,30 +54,24 @@ top: 0px;
 z-index: 2;
 }
 
+.formDiv{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
 .dashImages{
     height: 15px;
     width: 15px;
 }
 
-.slidChar{
-    margin-top: 18px;
-    margin-left: auto;
-}
 
-.dashSubBox{
-    width: 220px;
-    height: 115px;
-    background-color:#ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+#file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+  }
 
-.proImage{
-    height: 40px;
-    width: 40px;
-    
-}
-
-.tabContent{
-    background-color: #ffffff;
+.snackbarImage{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
 }
