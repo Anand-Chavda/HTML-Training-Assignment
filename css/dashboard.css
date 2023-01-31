@@ -66,10 +66,11 @@ z-index: 2;
 }
 
 .dashSubBox{
-    width: 220px;
+    width: 200px;
     height: 115px;
     background-color:#ffffff;
     margin-top: 10px;
+    padding: 15px;
     margin-bottom: 10px;
 }
 
@@ -81,4 +82,17 @@ z-index: 2;
 
 .tabContent{
     background-color: #ffffff;
+}
+
+.paid{
+    color: #3CDD5F;
+    background-color: #EBFFEF;
+}
+
+.pending{
+    color: #BABABA;
+}
+
+.failed{
+    color: #FF4545;
 }
